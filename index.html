@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Damilare">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another Form Validation</title>
+
+    <link rel="stylesheet" href="stylish.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <h1>Create Account</h1>
+            <div class="formContainer">
+                <label for="username">Username</label>
+                <input name="username" id="username" type="text">
+                <div class="error"></div>
+            </div>
+
+            <div class="formContainer">
+                <label for="email">Email</label>
+                <input name="email" id="email" type="email">
+                <div class="error"></div>
+            </div>
+
+            <div class="formContainer">
+                <label for="password">Password</label>
+                <input name="password" id="password" type="password">
+                <div class="error"></div>
+            </div>
+
+            <div class="formContainer">
+                <label for="password2">Password Check</label>
+                <input name="password2" id="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script defer src="scripting.js"></script>
+</body>
+</html>
